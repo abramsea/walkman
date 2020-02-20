@@ -1,0 +1,311 @@
+body {
+    font-family: 'GraphikLCG', Helvetica, sans-serif;
+    background: #fbfbfb;
+    max-width: 1920px;
+    color: #303030;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+
+
+
+
+.rich {
+    margin: 250px 0 0 0;
+    display: flex;
+}
+
+
+
+.text-box-blue-bg {
+    padding: 100px 200px 100px 100px;
+    max-width: 1200px;
+    border-radius: 40px;
+    background: url(../images/bg.png) top center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.text-heading {
+    font-size: 58px;
+    line-height: 71px;
+    font-weight: 600;
+}
+
+.text-description {
+    font-size: 33px;
+    line-height: 52px;
+    font-weight: 400;
+}
+
+.rich-img {
+    width: 650px;
+    height: 690px;
+    position: relative;
+    left: -30px;
+    top: 80px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 200px 50px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-box {
+    margin: auto;
+    max-width: 800px;
+}
+
+.img-box {
+    display: flex;
+}
+
+.img-box img {
+    max-width: 750px;
+    margin: auto;
+}
+
+.blue-bullets {
+    list-style: none;
+}
+
+.blue-bullets li::before {
+  content: "\2022";  
+  color: #4ac7e9; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.w562 {
+    max-width: 400px;
+    position: relative;
+    left: 70px
+}
+
+.text-box-blue-bg-two {
+    padding: 60px 100px 100px 200px;
+    border-radius: 40px;
+    background: url(../images/bg2.png) top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 70px 0 0 0;
+}
+
+
+
+
+
+.cards-row {
+    display: flex;
+}
+
+.card {
+    max-width: 420px;
+    margin: 0 5px;
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.card-title {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+.usb-img {
+    position: relative;
+    right: -50px;
+}
+
+.last-img {
+    position: relative;
+    left: -50px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+
+
+    .rich {
+        margin: 100px 0 0 0;
+    }
+
+    .text-box-blue-bg {
+        padding: 50px 100px 50px 50px;
+        max-width: 800px;
+        border-radius: 40px;
+    }
+    
+    .text-heading {
+        font-size: 39px;
+        line-height: 51px;
+    }
+    
+    .text-description {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    
+    .rich-img {
+        width: 427px;
+        height: 454px;
+        left: -20px;
+        top: 45px;
+    }
+
+    .materials-img {
+        width: 500px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1250px) {
+
+    .rich-img {
+        display: none;
+    }
+
+    .text-box-blue-bg {
+        max-width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        padding: 50px 20px;
+        justify-self: center;
+    }
+
+    .usb-img {
+        right: -20px;
+    }
+
+    .last-img {
+        left: -20px;
+    }
+    
+
+    .reversre {
+        flex-direction: column;
+    }
+
+    .text-box {
+        max-width: 100%;
+    }
+
+    .text-box-blue-bg-two {
+        padding: 50px;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+    .w562 {
+        display: none;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    .img-box img {
+        max-width: 100%;
+    }
+
+    .card {
+        max-width: 350px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .flex-container {
+        padding: 50px 10px;
+    }
+
+    .usb-img {
+        right: -10px;
+    }
+
+    .last-img {
+        left: -10px;
+    }
+
+
+    .text-heading {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .text-box-blue-bg {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    
+    .text-description {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    
+    .card {
+        max-width: 200px;
+        margin: 0 5px;
+    }
+
+    .card-title {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+    .card-text {
+        font-size: 17px;
+        line-height: 24px;
+
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+}
