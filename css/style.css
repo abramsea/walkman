@@ -1,12 +1,13 @@
 body {
     font-family: 'GraphikLCG', Helvetica, sans-serif;
     background: #fbfbfb;
-    max-width: 1920px;
+    margin: 0 auto;
     color: #303030;
 }
 
 .main {
     margin: 0 auto;
+    max-width: 1920px;
 }
 
 
@@ -105,11 +106,15 @@ body {
 }
 
 
-
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
 
 
 .cards-row {
     display: flex;
+    justify-content: center;
 }
 
 .card {
