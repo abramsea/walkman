@@ -4,10 +4,10 @@ menu.onclick = function openHiddenMenu() {
     if (x.className === 'nav') {
         $('#topnav').addClass(' responsive')
         $('#menu').html('&#215;');
-        $('.welcome').addClass(' hidden');
+        $('.logo-pult').css("opacity",".2");
     } else {
         x.className = 'nav';
-        $('.welcome').removeClass(' hidden');
+        $('.logo-pult').css("opacity","1");
         $('#menu').html('&#9776;');
     }
 }
